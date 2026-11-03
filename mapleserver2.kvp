@@ -1,4 +1,4 @@
-Meta.DisplayName=MapleServer2 (MapleStory 2 emulator, Wine)
+Meta.DisplayName=MapleServer2
 Meta.Description=MapleStory 2 server emulator (AlanMorel/MapleServer2), Windows build run under Wine
 Meta.OS=Linux
 Meta.AarchSupport=Unknown

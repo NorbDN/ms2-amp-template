@@ -1,0 +1,9 @@
+[
+    {
+        "UpdateStageName": "Create game directory",
+        "UpdateSourcePlatform": "All",
+        "UpdateSource": "CreateDirectory",
+        "UpdateSourceArgs": "{{$FullRootDir}}Maple2.Server.Game/bin/amp/net8.0",
+        "SkipOnFailure": false
+    }
+]

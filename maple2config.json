@@ -1,0 +1,29 @@
+[
+    {
+        "DisplayName": "Instanced content channel",
+        "Category": "Maple2:dns",
+        "Subcategory": "Server:dns:1",
+        "Description": "Run this process as the instanced-content channel (channel 0, port 20002) instead of a normal channel. Leave off for the first/main channel.",
+        "Keywords": "instanced,dungeon,channel0",
+        "FieldName": "InstancedFlag",
+        "InputType": "checkbox",
+        "ParamFieldName": "InstancedFlag",
+        "DefaultValue": "",
+        "EnumValues": {
+            "False": "",
+            "True": "--instanced "
+        }
+    },
+    {
+        "DisplayName": "Additional Command Line Arguments",
+        "Category": "Maple2:dns",
+        "Subcategory": "Server:dns:1",
+        "Description": "Optional extra command line arguments. Leave empty normally.",
+        "Keywords": "custom,server,arguments,parameters",
+        "FieldName": "CustomArgs",
+        "InputType": "text",
+        "ParamFieldName": "CustomArgs",
+        "DefaultValue": "",
+        "EnumValues": {}
+    }
+]

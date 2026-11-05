@@ -1,0 +1,23 @@
+[
+    {
+        "Protocol": "TCP",
+        "Port": 20001,
+        "Ref": "LoginPort",
+        "Name": "Login Port",
+        "Description": "Maple2 Login server (runs outside AMP, opened to players)"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 20003,
+        "Ref": "GamePort",
+        "Name": "Game Channel Port",
+        "Description": "Maple2 game channel 1 (this instance)"
+    },
+    {
+        "Protocol": "TCP",
+        "Port": 4000,
+        "Ref": "WebPort",
+        "Name": "Web Port",
+        "Description": "Maple2 Web server for UGC (runs outside AMP, opened to players)"
+    }
+]
